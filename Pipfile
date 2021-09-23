@@ -18,7 +18,7 @@ numpy = "*"
 pandas = "*"
 matplotlib = "*"
 spacy = "*"
-category-encoders = "*"
+category-encoders = "==2.*"
 
 [dev-packages]
 ipykernel = "*"

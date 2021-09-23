@@ -30,5 +30,5 @@ class Song(DB.Model):
 
 #loading in pickled KNN model
 
-with lzma.open("model.xz", "rb") as f:
-    model = pickle.load(f)
+# with lzma.open("model.xz", "rb") as f:
+#     model = pickle.load(f)
