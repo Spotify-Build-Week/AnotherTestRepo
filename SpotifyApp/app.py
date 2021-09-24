@@ -1,10 +1,9 @@
-'''Song_Suggester app logic'''
 import os
 from flask import Flask, render_template, request
 # from models import DB, Song
 # from spotify_client import *
-from app import *
-from wrangle import *
+from .app import *
+from .wrangle import *
 import lzma
 import pickle
 from sklearn.neighbors import NearestNeighbors
