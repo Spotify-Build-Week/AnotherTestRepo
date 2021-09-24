@@ -19,6 +19,7 @@ pandas = "*"
 matplotlib = "*"
 spacy = "*"
 category-encoders = "==2.*"
+gunicorn = "*"
 
 [dev-packages]
 ipykernel = "*"
